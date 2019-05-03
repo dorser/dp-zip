@@ -34,3 +34,6 @@ session.input.readAsBuffer((err, buf) => {
 });
 
 ```
+Download the [unzip-example.zip](https://gist.githubusercontent.com/dorser/7291249e101a5c2b1fe5794722b0dda1/raw/d37f89e78d1659beecd8fa9a4eb10da29d4c60f8/unzip-example.zip) as an example MPGW you can import to your DataPower.
+You can upload test zip files to it directly:
+`curl -X POST --data-binary @test.zip http://DP_HOST:1995/unzip`

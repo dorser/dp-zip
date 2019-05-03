@@ -1,0 +1,40 @@
+{
+  "name": "dp-zip",
+  "version": "0.1.0",
+  "description": "GatewayScript implementation of zip for DataPower based on the npm package 'adm-zip'. Allows user to extract zip files in memory",
+  "keywords": [
+    "zip",
+    "unzip",
+    "datapower"
+  ],
+  "homepage": "https://github.com/dorser/dp-zip",
+  "author": "Dor Serero (https://github.com/dorser)",
+  "bugs": {
+    "url": "https://github.com/dorser/dp-zip/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "dp-zip.js",
+    "headers",
+    "methods",
+    "util",
+    "zipEntry.js",
+    "zipFile.js",
+    "MIT-LICENSE.txt"
+  ],
+  "main": "dp-zip.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dorser/dp-zip.git"
+  },
+  "engines": {
+    "node": ">=8.9.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-google": "^0.12.0"
+  },
+  "dependencies": {
+    "pako": "^1.0.10"
+  }
+}

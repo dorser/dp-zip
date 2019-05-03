@@ -14,7 +14,7 @@
   },
   "license": "MIT",
   "files": [
-    "dp-zip.js",
+    "index.js",
     "headers",
     "methods",
     "util",
@@ -22,7 +22,7 @@
     "zipFile.js",
     "MIT-LICENSE.txt"
   ],
-  "main": "dp-zip.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/dorser/dp-zip.git"
